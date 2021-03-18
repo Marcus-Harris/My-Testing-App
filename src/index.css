@@ -1,0 +1,41 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+#html-only-div {
+    text-align: center;
+}
+
+.Nodes {
+    border: 1px solid #888;
+    margin: 1em;
+    padding: 1em;
+    font-size: large;
+}
+  
+#mountNode input {
+    display: block;
+    margin: 1rem 0;
+    background-color: rgb(230, 230, 230);
+}
+  
+#mountNode pre {
+    background-color: inherit;
+}
+
+.button {
+    padding: 1%;
+    border: 1.5px solid black;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+#mountNode7{
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr 1fr 1fr
+}
